@@ -57,9 +57,9 @@ class MainUI(tk.Tk):
         frame.tkraise()
 
         # Check if the current frame is "PageLoggedIn"
-        # if page_name == "PageLoggedIn":
-        #     # Call emotions.emo_detector() when switching to PageLoggedIn
-        #     emotions.emo_detector()
+        if page_name == "PageLoggedIn":
+            # Call emotions.emo_detector() when switching to PageLoggedIn
+            emotions.emo_detector()
     # Function to handle the closing of the application
     def on_closing(self):
         if messagebox.askokcancel("Close the Appllication", "Are you sure?"):

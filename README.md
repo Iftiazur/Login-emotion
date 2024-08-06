@@ -1,53 +1,24 @@
-# Face Recognition and Emotion Detection System
+# Face Recognition and Emotion Detection App
 
-This project is a comprehensive Face Recognition and Emotion Detection system implemented in Python. It provides a graphical user interface for user registration, login, and emotion detection using facial recognition technology.
+
+## Description
+
+This project is a face recognition and emotion detection application built using Python and OpenCV. It allows users to register their faces, log in using face recognition, and track emotions in real-time through webcam input and then display it on a graph
 
 ## Features
 
-- User registration with facial data capture
+- User registration with face capture
 - Face recognition-based login system
-- Real-time emotion detection
-- User session tracking
-- Emotion frequency visualization
+- Real-time emotion detection using machine learning
+- Interactive graphical user interface (GUI)
 
-## Components
+## Technologies Used
 
-1. **Main Application (app-gui.py)**
-   - Implements the graphical user interface using tkinter
-   - Manages different pages for registration, login, and user sessions
-   - Integrates face recognition and emotion detection functionalities
-
-2. **Classifier Creation (create_classifier.py)**
-   - Trains a Local Binary Patterns Histograms (LBPH) face recognizer
-   - Creates classifier XML files for registered users
-
-3. **Dataset Creation (create_dataset.py)**
-   - Captures facial images for new user registration
-   - Implements a progress meter for image capture
-
-4. **Face Detection and Recognition (Detector.py)**
-   - Performs real-time face detection and recognition
-   - Verifies user identity for login
-
-5. **Emotion Detection (emotion_detection.py)**
-   - Utilizes a pre-trained convolutional neural network for emotion classification
-   - Detects and displays emotions in real-time video feed
-
-6. **Emotion Detection Testing (testerFile.py)**
-   - Provides a testing interface for the emotion detection system
-   - Allows real-time emotion detection and frequency visualization
-
-7. **Emotion Detection Model Training (training.py)**
-   - Defines and trains a convolutional neural network for emotion detection
-   - Uses image data generators for efficient training
-   - Saves the trained model weights
-
-## Requirements
-
-- Python 3.x
+- Python
 - OpenCV
-- TensorFlow
-- Tkinter
-- Matplotlib
-- NumPy
+- TensorFlow/Keras
+- Tkinter (for GUI)
+- Matplotlib (for visualization)
+- Haar Cascade Classifiers
+
 
