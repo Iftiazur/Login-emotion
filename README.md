@@ -65,7 +65,6 @@ Emotion tracking involves identifying and analyzing human emotions through vario
 3. **Recognition**: Matching faces against a database for authentication.
 
 ### Working of Emotion Tracking
-v
 1. **Data Collection**: Gathering data from sources like facial expressions or voice tone.
 2. **Processing and Analysis**: Using algorithms to analyze the data.
 3. **Classification**: Determining the emotional state based on the analysis.
