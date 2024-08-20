@@ -1,6 +1,6 @@
 # Facial Recognition-Based Login and Emotion Tracking
 <p align="center">
-   <img src="assets\Screenshot 2023-10-03 003222.png" />
+   <img src="assets\banner.png" />
 </p>
 
 ## Introduction
